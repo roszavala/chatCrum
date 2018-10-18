@@ -1,0 +1,144 @@
+<div class="pantCompletaOcultar">
+	<div class="chatmax"><!--inicio chat-->
+		<div class="chatCerrar">
+				<img id="cerrarChat" src="assets/cerrar.svg"/>
+			</div>
+			<div class="chatMensajesP">
+			</div>
+			<div class="chatEnviar">
+				<div class="chatEnviarEspacio">
+					<div class="chatAreaMensaje">
+						<textarea class="txtMensajeMandar" type="text"></textarea>
+					</div>
+					<div class="chatAreaEnviar btnEnviarMensaje">
+						<img src="assets/enviar.svg"/>
+					</div>
+				</div>
+			</div>
+	</div><!--fin chat-->
+	<div class="monitorBarraEstado">
+			<div class="pConectado">
+				<!--<img class="estadoConexionP" src="assets/conectado.svg" title="Unidad conectada"/>-->
+			</div>
+			<div class="chatMonitor">
+				<img id="iniciarChat" src="assets/chat.svg"/>
+			</div>
+			<div class="especialistaMonitor">
+				<img class="evtEspecialistas" src="assets/especialista.svg"/>
+			</div>
+			<div class="folio">
+				<label>FRAP:<span class="bold numeroFolio folioPantallaCompleta">444</span></label>
+			</div>
+			<div class="monitorTitulo">
+				<label class="nombreAmbulancia">Ambulancia 1</label>
+			</div>
+			<div class="cerrarMonitor">
+				<img src="assets/cerrarMonitor.svg"/>
+			</div>
+	</div>
+	<div class="mainMonitor">
+		<div class="monitorSenales">
+			<div class="senal" id="dev1"></div>
+			<div class="senal" id="dev2"></div>
+			<div class="senal" id="dev3"></div>
+			<div class="senal" id="dev4"></div>
+			<div class="senal" id="dev5"></div>
+			<div class="senal" id="dev6"></div>
+			<div class="senal" id="dev7"></div>
+			<div class="senal" id="dev8"></div>
+			<div class="senal" id="dev9"></div>
+			<div class="senal" id="dev10"></div>
+			<div class="senal" id="dev11"></div>
+			<div class="senal" id="dev12"></div>
+			<div class="senal" id="spo"></div>
+			<div class="senal" id="cap"></div>
+		</div>
+		<div class="monitorSensores">
+			<div class="sensores1">
+				<div class="punteroSensor mBmp">
+					<label class="sensorNombre">
+						bmp
+					</label>
+					<label class="sensorNumero indicadoresTextos" id="bmp">
+						0
+					</label>
+				</div>
+				<div class="punteroSensor mTemp">
+					<label class="sensorNombre">
+						Temp ºC
+					</label>
+					<label class="sensorNumero indicadoresTextos" id="tmp">
+						0
+					</label>
+				</div>
+			</div>
+			<div class="sensores1 oximetria">
+				<div class="punteroSensor">
+					<label class="sensorNombre">
+						SPO2
+					</label>
+					<label class="sensorNumero indicadoresTextos" id="spoOximetria">
+						0
+					</label>
+				</div>
+				<div class="punteroSensor">
+					<label class="sensorNombre oximetriaNombre">
+						bpm
+					</label>
+					<label class="sensorNumero oximetriaNivel indicadoresTextos" id="spoBpm">
+						0
+					</label>
+				</div>
+			</div>
+			<div class="sensores2">
+				<div class="presion1">
+					<label class="nombreNibp">
+						NIBP
+					</label>
+					<label class="nivelNibp" id="tarValor">
+						0/0
+					</label>
+				</div>
+				<div class="presion">
+					<label class="nombreMmhg">
+						mmHg
+					</label>
+					<label class="nivelMmhg indicadoresTextos" id="tarArterial">
+						0
+					</label>
+				</div>
+				<div class="presion">
+					<label class="nombreMmhg nombreBpmTar">bpm
+
+					</label>
+					<label class="nivelMmhg nivelBpmTar indicadoresTextos" id="tarRitmo">
+						0
+					</label>
+				</div>
+			</div>
+			<div class="sensores3">
+				<div class="co2">
+					<label class="nombreMmhg">CO2</label>
+				</div>
+				<div class="co21">
+					<label class="nombreCO2">Temp ºC:</label>
+					<label class="nivelC02 param1 indicadoresTextos" id="capParam1">0</label>
+					<label class="nombreCO2">Breaths/min:</label>
+					<label class="nivelC02 param6 indicadoresTextos" id="capParam6">0</label>
+				</div>
+				<div class="co21">
+					<label class="nombreCO2">mmHg:</label>
+					<label class="nivelC02 param2 indicadoresTextos" id="capParam2">0</label>
+					<label class="nombreCO2">Inspired:</label>
+					<label class="nivelC02 param5 indicadoresTextos" id="capParam5">0</label>
+				</div>
+				<div class="co21">
+					<label class="nombreCO2">Flujo:</label>
+					<label class="nivelC02 param3 indicadoresTextos" id="capParam3">0</label>
+					<label class="nombreCO2">etCO2:</label>
+					<label class="nivelC02 param4 indicadoresTextos" id="capParam4">0</label>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

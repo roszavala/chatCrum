@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<head lang="es">
+	<title>Control de Acceso</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="stylesheets/SSLogin.css"  type="text/css"/>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,500,700' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/png" href="assets/icon.png">
+	<script type="text/javascript">
+	</script>
+	<script src="javascripts/lib/jquery-1.12.0.min.js"></script>
+	<script src="javascripts/acceso.js"></script>
+
+</head>
+<body>
+		<center>
+			<main>
+					<image id="imgFoto" class="imgSitCrum" src="images/Acceso/logoSITCRUM.svg"></image><br/><br/>
+					<input type="text" ID="txtUsuario" Class="TBUser letraBlack" placeholder="Usuario"/>
+	                <label ID="lbUsuarioNecesario" ></label><br/><br/>
+	                <input type="password" ID="txtPassword" TextMode="Password" class="TBPass letraBlack" placeholder="Password" required/>
+	                <Label ID="lbPassNecesario"></Label><br/><br/>
+	                <input type="submit" ID="btnLogin"  Class="BotonA" value="Entrar" required/>
+									<br/><br/>
+	                <label ID="lblMsjValida" style="color: red"></label>
+			</main>
+
+			<footer>
+				<div class="reticula columna columna-1">
+					<image  class="imgCrum" src="images/Acceso/logoCRUM_white.png"></image><br/>
+				</div>
+				<div class="reticula columna columna-2">
+					<label  class="letraBlackW">2017 © CRUM</label>
+				</div>
+				<div class="reticula columna columna-3">
+					<image  class="imgCidesi" src="images/Acceso/logoCIDESI_white.png"></image><br/>
+				</div>
+			</footer>
+		</center>
+</body>
+</html>

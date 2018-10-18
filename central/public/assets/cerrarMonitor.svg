@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 275 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="sitcrum_signosCompleta" sketch:type="MSArtboardGroup" transform="translate(-1248.000000, -53.000000)" filter="url(#filter-1)" fill="#1F1F21">
+            <path d="M1259.97486,61.0251392 L1259.97486,55.2637322 C1259.97486,54.1803354 1259.09069,53.2959801 1258,53.2959801 C1256.90171,53.2959801 1256.02514,54.1769727 1256.02514,55.2637322 L1256.02514,61.0251392 L1250.26373,61.0251392 C1249.18034,61.0251392 1248.29598,61.9093145 1248.29598,63 C1248.29598,64.0982896 1249.17697,64.9748608 1250.26373,64.9748608 L1256.02514,64.9748608 L1256.02514,70.7362678 C1256.02514,71.8196646 1256.90931,72.7040199 1258,72.7040199 C1259.09829,72.7040199 1259.97486,71.8230273 1259.97486,70.7362678 L1259.97486,64.9748608 L1265.73627,64.9748608 C1266.81966,64.9748608 1267.70402,64.0906855 1267.70402,63 C1267.70402,61.9017104 1266.82303,61.0251392 1265.73627,61.0251392 L1259.97486,61.0251392 Z" id="Rectangle-275-Copy-2" sketch:type="MSShapeGroup" transform="translate(1258.000000, 63.000000) rotate(-45.000000) translate(-1258.000000, -63.000000) "></path>
+        </g>
+    </g>
+</svg>

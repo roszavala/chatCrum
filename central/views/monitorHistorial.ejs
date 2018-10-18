@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+		<head>
+			<meta charset="utf-8">
+			<title>Visor</title>
+
+			<!-- Estilos del canvas y slider-->
+			<link href="javascripts/lib/jquery-ui/jquery-ui.css" rel="stylesheet">
+			<link href="stylesheets/monitorHistorial.css" rel="stylesheet">
+
+			<!-- Librerias de Javascript-->
+			<script src="javascripts/lib/jquery-ui/external/jquery/jquery.js"></script>
+			<script src="javascripts/lib/jquery-ui/jquery-ui.js"></script>
+			<script src="javascripts/lib/socket/socket.io-1.3.7.js"></script>
+			<script src="javascripts/lib/canvasjs.min.js"></script>
+			<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>-->
+			<script src="javascripts/lib/moment.js"></script>
+		</head>
+		<body>
+			<div class="mainMonitor">
+				<div class="monitorSenales">
+				  <div class="senal" id="dev1"></div>
+				  <div class="senal" id="dev2"></div>
+				  <div class="senal" id="dev3"></div>
+				  <div class="senal" id="dev4"></div>
+				  <div class="senal" id="dev5"></div>
+				  <div class="senal" id="dev6"></div>
+				  <div class="senal" id="dev7"></div>
+				  <div class="senal" id="dev8"></div>
+				  <div class="senal" id="dev9"></div>
+				  <div class="senal" id="dev10"></div>
+				  <div class="senal" id="dev11"></div>
+				  <div class="senal" id="dev12"></div>
+				  <div class="senal" id="spo"></div>
+				  <div class="senal" id="cap"></div>
+				</div>
+				<div class="monitorSensores">
+				  <div class="sensores1">
+				    <div class="punteroSensor mBmp">
+				      <label class="sensorNombre">
+				        bmp
+				      </label>
+				      <label class="sensorNumero indicadoresTextos" id="bmp">
+				        0
+				      </label>
+				    </div>
+				    <div class="punteroSensor mTemp">
+				      <label class="sensorNombre">
+				        Temp ºC
+				      </label>
+				      <label class="sensorNumero indicadoresTextos" id="tmp">
+				        0
+				      </label>
+				    </div>
+				  </div>
+				  <div class="sensores1 oximetria">
+				    <div class="punteroSensor">
+				      <label class="sensorNombre">
+				        SPO2
+				      </label>
+				      <label class="sensorNumero indicadoresTextos" id="spoOximetria">
+				        0
+				      </label>
+				    </div>
+				    <div class="punteroSensor">
+				      <label class="oximetriaNombre">
+				        bpm
+				      </label>
+				      <label class="oximetriaNivel indicadoresTextos" id="spoBpm">
+				        0
+				      </label>
+				    </div>
+				  </div>
+				  <div class="sensores2">
+				    <div class="presion1">
+				      <label class="nombreNibp">
+				        NIBP
+				      </label>
+				      <label class="nivelNibp" id="tarValor">
+				        0/0
+				      </label>
+				    </div>
+				    <div class="presion">
+				      <label class="nombreMmhg">
+				        mmHg
+				      </label>
+				      <label class="nivelMmhg indicadoresTextos" id="tarArterial">
+				        0
+				      </label>
+				    </div>
+				    <div class="presion">
+				      <label class="nombreMmhg nombreBpmTar">bpm
+
+				      </label>
+				      <label class="nivelMmhg nivelBpmTar indicadoresTextos" id="tarRitmo">
+				        0
+				      </label>
+				    </div>
+				  </div>
+				  <div class="sensores3">
+				    <div class="co2">
+				      <label class="nombreMmhg">CO2</label>
+				    </div>
+				    <div class="co21">
+				      <label class="nombreCO2">Temp ºC:</label>
+				      <label class="nivelC02 param1 indicadoresTextos" id="capParam1">0</label>
+				      <label class="nombreCO2">Breaths/min:</label>
+				      <label class="nivelC02 param6 indicadoresTextos" id="capParam6">0</label>
+				    </div>
+				    <div class="co21">
+				      <label class="nombreCO2">mmHg:</label>
+				      <label class="nivelC02 param2 indicadoresTextos" id="capParam2">0</label>
+				      <label class="nombreCO2">Inspired:</label>
+				      <label class="nivelC02 param5 indicadoresTextos" id="capParam5">0</label>
+				    </div>
+				    <div class="co21">
+				      <label class="nombreCO2">Flujo:</label>
+				      <label class="nivelC02 param3 indicadoresTextos" id="capParam3">0</label>
+				      <label class="nombreCO2">etCO2:</label>
+				      <label class="nivelC02 param4 indicadoresTextos" id="capParam4">0</label>
+				    </div>
+				  </div>
+				</div>
+				</div>
+				<!-- Slider -->
+
+				<div class="mainSlider">
+							<h2 class="headerSlider" id="headerSlider">Tiempo total del Servicio.</h2>
+							<div class="slider" id="slider"></div>
+							<div class="valor">
+								Hora:
+								<label class="valor" id="valor"></label>
+							</div>
+
+							<!--<button class="btn" id="btn">Muevete</button>-->
+				</div>
+
+		<script type="text/javascript" src="javascripts/visor/canvas.js"></script>
+		<script type="text/javascript">
+
+				var valorInicio= parseInt(<%= inicio%>);
+				var valorFin= parseInt(<%= fin%>);
+				var status= <%= status %>;
+
+		</script>
+		<script type="text/javascript" src="javascripts/visor/slider_monitorHistorial.js"></script>
+		</body>
+</html>

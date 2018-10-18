@@ -1,0 +1,20 @@
+{
+    "puertoServidorWeb":9000,
+    "puertoSocketInicioServicio":52000,
+    "direccionPOSTGRE":"postgres://stpcrum:stpCRUM15@192.168.1.112:5432/db_stpCRUM",
+
+    "puertoVisorWebSocket":40000,
+
+    "direccionLocal" : "sitcrum.cidesi.mx",
+    "puertoChat":54000,
+
+    "appKeyKinvey"       : "kid_ZknyyiMxlZ",
+    "appSecretKinvey"    : "c65f450cf3d04ace9e0d40e2a08667dd",
+	  "masterSecretKinvey" : "130cdd43cc62402cbdfa35cd799a0c6c",
+
+    "puertoReceptorIO" : 61000,
+    "puertoSocketSincronizacion": 56000,
+
+    "muestraConsolesLog": true
+
+}

@@ -1,0 +1,822 @@
+.pConectado{
+  padding: 5px;
+}
+.conectado{
+	width: 10%;
+}
+.conectado img{
+	width: 70%;
+	height: 70%;
+	padding: 5px;
+}
+.ventanaMensaje{
+	display: block;
+	width: 100%;
+	word-break: break-word;
+}
+.mensajeHora{
+	width: 100%;
+	display: block;
+	font-size: 13px;
+	color: #979797;
+	word-break: break-word;
+}
+.mainHeader{
+		width: 100%;
+    height: 5%;
+    background-color: #454D53;
+    color:#FFFFFF;
+}
+.contheader{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    box-shadow: 0px 4px 4px #333333;
+}
+.itemlogo{
+	width: 20%;
+    padding-left: 1%;
+}
+.itemlogo img{
+	width: 18%;
+}
+.itemtitulo{
+	width: 60%;
+    font-size: 1.8em;
+    text-align: center;
+}
+.itemflechas{
+    justify-content: flex-end;
+    width: 20%;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+}
+.itemflechas img{
+	padding-right: 10px;
+}
+.mainIndex{
+	height: 90.5%;
+	width: 100%;
+	display: block;
+}
+.servicio{
+	width: 25%;
+	height: 50%;
+	float: left;
+	box-sizing: border-box;
+	border: 1px solid #979797;
+	background-color: #313131;
+}
+.servicioHeader{
+		width: 100%;
+    height: 10%;
+    background: #d2eefb;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    align-items: center;
+}
+.contenido{
+	width: 100%;
+	height: 45%;
+}
+.servicioContenido{
+	width: 100%;
+    height: 50%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+}
+.servicioContenido2{
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+.especialistaD{
+	width: 10%;
+  display: flex;
+  cursor: pointer;
+}
+.especialistaD img{
+  width: 90%;
+}
+.pantallaD{
+		width: 10%;
+    display: flex;
+}
+.pantallaD img{
+	 width: 80%;
+   cursor: pointer;
+}
+.titulo{
+	width: 35%;
+	padding: 2px 0 2px 0;
+	font-size: 1em;
+}
+.datosDescarga{
+	width: 25%;
+	padding: 2px 0 2px 0;
+	font-size: 1.2em;4422395134
+	color: red;
+}
+.folio{
+	width: 46%;
+    font-size: 1em;
+    padding-left: 5px;
+}
+.folio label{
+	margin-right: 10px;
+}
+.bold{
+	font-weight: bold;
+	margin-left: 2px
+}
+.servicioContenido{
+	width: 100%;
+	height: 50%;
+}
+.bpm{
+	color: #60F979;
+}
+.temp{
+	color: #FF5E53;
+}
+.spo2{
+	color: #E1F7D9;
+}
+.nibp{
+	color: #A2A2F3;
+}
+.vT{
+	width: 100%;
+    height: 25%;
+   	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+.vC{
+	width: 100%;
+    height: 75%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;
+}
+.pantallaCompleta{
+		width: 33.333%;
+    height: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
+.footer{
+  position: relative;
+	width: 100%;
+	height: 4.5%;
+	background: #5c6871;
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+     justify-content: center;
+  z-index: 1001;
+  border-top: 1px solid #979797;
+}
+.logoCrum{
+	width: 33.333%;
+    height: 100%;
+    padding-left: 10px;
+}
+.logoCrum img{
+	width: 15%;
+	height: 90%;
+}
+.dominio{
+	width: 33.333%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+}
+.logoCidesi{
+	width: 33.333%;
+    height: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.logoCidesi img{
+	width: 15%;
+	height: 90%;
+}
+.divChat{
+	width: 100%;
+	height: 45%;
+}
+.chatMensajes{
+	width: 100%;
+	height: 75%;
+	padding: 8px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+
+.chatMensajesP{
+	width: 100%;
+	height: 85%;
+	padding: 8px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+
+.chatEnviar{
+	width: 100%;
+	height: 15%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.chatEnviarChico{
+  width: 100%;
+	height: 30%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.chatEnviarEspacio{
+    width: 100%;
+    height: 73%;
+    border-radius: 10px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+}
+.chatEspacio{
+	width: 100%;
+	height: 57px;
+	border-radius: 10px;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+}
+.signos{
+    width: 100%;
+    height: 100%;
+}
+.chatAreaMensaje{
+    width: 100%;
+    height: 100%;
+}
+.chatAreaEnviar{
+    width: 12%;
+    height: 100%;
+    background-color: #3CABDA;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 4px #888888;
+    cursor: pointer;
+}
+.chatAreaEnviar img{
+    width: 50%;
+    height: 50%;
+}
+.chatAreaMensaje textarea{
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-style: none;
+    resize: none;
+    font-size: 1.3em;
+}
+.inChat{
+    width: auto;
+    padding: 10px 5px 5px 10px;
+    border-radius: 0px 10px 10px 10px;
+    color: #474747;
+    font-size: 1.4em;
+    border: 2px solid #FD9426;
+    display: table;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-align: left;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.monitorBarraEstado{
+    width: 100%;
+    height: 5%;
+    background: #d2eefb;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 4px #333333;
+}
+.chatMonitor{
+    width: 2.5%;
+    align-items: center;
+    margin-left: 1%;
+    cursor: pointer;
+}
+.chatMonitor img{
+     width: 70%;
+}
+.especialistaMonitor{
+    width: 2.5%;
+    align-items: center;
+    margin-left: 1%;
+    cursor: pointer;
+}
+.especialistaMonitor img{
+   width: 70%;
+}
+.monitorTitulo{
+    width: 65%;
+    text-align: center;
+    padding: 2px 0 2px 0;
+    font-size: 1.5em;
+}
+.monitorFolio{
+    width: 35%;
+    font-size: 1.5em;
+    text-align: end;
+}
+.mainMonitor{
+    width: 100%;
+    height: 95.01%;
+    background: #313131;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+}
+.monitorSenales{
+    width: 75%;
+    height: 100%;
+}
+.senal{
+    border-bottom: 1px solid #979797;
+    width: 100%;
+    height: 7.1428%;
+    box-sizing: border-box;
+}
+.cerrarMonitor{
+    width: 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+.cerrarMonitor img{
+    padding-right: 5px;
+    cursor: pointer;
+}
+.monitorSensores{
+    width: 25%;
+    height: 100%;
+}
+.sensores1{
+    width: 100%;
+    height: 28.5712%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #979797;
+    border-left: 1px solid #979797;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+}
+.sensores2{
+    width: 100%;
+    height: 21.4284%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #979797;
+    border-left: 1px solid #979797;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+}
+.sensores3{
+    width: 100%;
+    height: 21.4284%;
+    box-sizing: border-box;
+    border-left: 1px solid #979797;
+    color: #48F3FF;
+}
+.punteroSensor{
+    width: 50%;
+    height: 100%;
+}
+.mBmp{
+    border-right: 1px solid #979797;
+    color: #60F979;
+}
+.mTemp{
+     color: #FF5E53;
+}
+.flechaIzq{
+    width: 85%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.flechaDer{
+    width: 15%;
+    height: 100%;
+    align-items: flex-end;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: flex-end;
+}
+.sensorNombre{
+    font-size: 3em;
+    padding-top: 15px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+}
+.sensorNumero{
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    font-size: 5.5em;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+.oximetria{
+    color: #E1F7D9;
+}
+.oximetriaNombre{
+    font-size: 2.8em;
+
+}
+.oximetriaNivel{
+    font-size: 5em;
+}
+.presion{
+    width: 33.333%;
+    height: 100%;
+}
+.nombreNibp{
+    width: 100%;
+    height: 35%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.nivelNibp{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 65%;
+    font-size: 3em;
+}
+.presion{
+    color:#A2A2F3;
+}
+.presion1{
+    color:#A2A2F3;
+    width: 50%;
+    height: 100%;
+}
+.nombreMmhg{
+    width: 100%;
+    height: 35%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+}
+.nivelMmhg{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+.co2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.co21{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+.nombreCO2{
+    display: flex;
+    width: 35%;
+    height: 100%;
+    align-items: center;
+    text-align: right;
+    justify-content: flex-end;
+}
+.nivelC02{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    padding-left: 5px;
+}
+.chatmax{
+    width: 50%;
+    height: 60%;
+    display: block;
+    z-index: 1;
+    position: absolute;
+    background: #5B5B5B;
+    bottom: 0px;
+    background-color: rgba(0,0,0,0.5);
+    margin-bottom: 2.7%;
+    border-radius: 10px 10px 0px 0px;
+		display: none;
+}
+.mensajeMandar{
+		width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+.cerrarChat{
+	width: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+.chatCerrar{
+  cursor: pointer;
+}
+.pantCompletaOcultar{
+	height: 90.5%;
+	width: 100%;
+	display: none;
+}
+.pantCompletaMostrar{
+		display: block;
+		position: absolute;
+		z-index: 1000;
+		top:5%;
+		left: 0px;
+}
+.outChat{
+		width: auto;
+    height: 10px;
+    background: #FFFFFF;
+    padding: 5px 15px;
+    border-radius: 10px 10px 0px 10px;
+    color: #1f1f21;
+    font-size: 1.4em;
+    display: table;
+    margin-bottom: 5px;
+    text-align: left;
+    border: 3px solid #86FF9A;
+}
+#chat2{
+	/*width: 100%;
+    height: 100%;
+    display: none;
+    background: #5B5B5B;*/
+		display: none;
+    /* position: absolute; */
+    width: 33.333%;
+    height: 33.333%;
+    position: absolute;
+    z-index: 100;
+    opacity: .5;
+    /* background-color: white; */
+    top: 0;
+    left: 0;
+}
+.contenidoR{
+		width: 100%;
+    height: 50%;
+    display: flex;
+}
+.contenidoC{
+	width: 50%;
+	height: 100%;
+	border: .5px solid #979797;
+}
+.nombre{
+		width: 100%;
+    display: block;
+    text-align: center;
+    height: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 2.2em;
+}
+.valor{
+		width: 100%;
+    height: 70%;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 3.5em
+}
+.lstEspecialistas{
+	width: 25%;
+	height: auto;
+	max-height: 50%;
+	background: #F7F7F7;
+	border: 1px solid #D8D8D8;
+	display: none;
+}
+.espEncabezado{
+		width: 100%;
+    height: 12%;
+    background-color: #3CABDA;
+    border-bottom: 1px solid #D8D8D8;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 1.3em;
+}
+.tituloEspecialidad{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #D8D8D8;
+	padding-left: 5px;
+	box-sizing: border-box;
+	border-right: 1px solid #D8D8D8;
+}
+.tituloNombre{
+	width: 70%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding-left: 5px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #D8D8D8;
+}
+.renEspecialista{
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid #D8D8D8;
+	box-sizing: border-box;
+	display: flex;
+	color: #5E5E66;
+	font-size: 1em;
+	min-height: 40px;
+	max-height: 60px;
+}
+.especialidad{
+		width: 30%;
+    border-right: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+.nombreEspecialista{
+		width: 60%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.agregarEsp{
+	width: 10%;
+	display: flex;
+	justify-content: flex-end;
+	box-sizing: border-box;
+}
+.agregarEsp img{
+	width: 60%;
+  padding-right: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.lstNombresEsp{
+	overflow-y: auto;
+	width: 100%;
+	height: 88%
+}
+.mostrarLstEspecialistas{
+	z-index: 10000;
+	display: block;
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+.clickEspAct{
+	display: none;
+}
+.hoja{
+	width: 100%;
+	height: 100%;
+}
+#servicioClonar{
+	display: none
+}
+.hoja2{
+	display: none;
+}
+.fSiguiente{
+	display: none;
+}
+.siguienteHoja{
+		display: block;
+		position: absolute;
+		z-index: 1000;
+		height: 90.5%;
+}
+.ocultar{
+	display: none;
+}
+.mostrar{
+	display: block;
+}
+.desconectada{
+	opacity: 0.5;
+}
+.msjDesconexion{
+	width: auto;
+	height: 10px;
+	background: #FFED00;
+	padding: 10px;
+	border-radius: 10px 10px 10px 10px;
+	margin-bottom: 5px;
+	font-size: 18px;
+	display: table;
+}

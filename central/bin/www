@@ -1,0 +1,35 @@
+#!/usr/bin/env node
+var debug = require('debug')('crum_central');
+var app = require('../app');
+
+app.set('port', process.env.PORT || global.configuracion.puertoServidorWeb);
+
+var server = app.listen(app.get('port'), function() {
+  debug('Express server listening on port ' + server.address().port);
+});
+
+/*
+    modulo para desactivar o mostrar los mensajes de consola para debuguear.
+*/
+require('../backend/log')();
+/*
+  Inicialización del servidor para obtener el inicio de servicio y retornarlo a crum
+  por medio del socket.
+ */
+require('../backend/InicioServicio/socketioServer')(app, server);
+/*
+    carga modulo de conexion de socket web para plotear los datos.
+ */
+require('../backend/visor/socketio_web')(app,server);
+/*
+	carga modulo de conexion para kinvey.
+*/
+//  require('../backend/visor/kinvey')();
+/*
+   habilita el servicion de escucha para los Sockets de Receptor_IO
+ */
+require('../backend/visor/receptor_central.js')();
+/*
+   habilita modulo de sincronizacion para recibir los datos enviados por la ambulancia.
+*/
+require('../backend/sincronizacion/socket.stream')();

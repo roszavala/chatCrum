@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SITCRUM</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/alertify.min.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/default.min.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,100' rel='stylesheet' type='text/css'>
+		<link rel="icon" type="image/png" href="assets/icon.png">
+		<script type="text/javascript">
+			/*
+			 configuracion publica de direcciones ip y puertos socket.
+			 */
+			var puertoSocket = <%= puertoSocketBack %>;
+			var dirLocal="<%= ipCentral %>";
+			var puertoChat="<%= puertoChat %>";
+
+		</script>
+
+
+		<!-- librerias necesarias -->
+
+		<script src="javascripts/lib/jquery-3.1.1.min.js"></script>
+		<script src="javascripts/lib/socket/socket.io-1.3.7.js"></script>
+		<script src="javascripts/lib/canvasjs.min.js"></script>
+		<script src="javascripts/lib/alertify.min.js"></script>
+
+
+		<!-- scripts del visor necesarios -->
+
+
+		<script src="javascripts/visor/canvas.js"></script>
+		<script src="javascripts/visor/ecg_funciones.js"></script>
+		<script src="javascripts/visor/tar_funciones.js"></script>
+		<script src="javascripts/visor/cap_funciones.js"></script>
+		<script src="javascripts/visor/spo_funciones.js"></script>
+		<script src="javascripts/visor/tmp_funciones.js"></script>
+		<script src="javascripts/chatSitcrumJS.js"></script>
+		<script src="javascripts/visor/signosVitalesIndex.js"></script>
+
+
+		<meta charset="UTF-8">
+	</head>
+	<body>
+
+		<header class="mainHeader">
+			<div class="contheader">
+				<div class="itemlogo">
+					<img src="assets/logo.svg"/>
+				</div>
+				<div class="itemtitulo">
+					<label id="titleVisor">Visor de signos vitales</label>
+				</div>
+				<div class="itemflechas">
+					<img id="fAnterior"  class="ocultar" src="assets/anterior.svg"/>
+					<img id="fSiguiente" class="ocultar" src="assets/siguiente.svg"/>
+				</div>
+				<div>
+					<label id="salir">
+							Salir
+					</label>
+				</div>
+			</div>
+		</header>
+		<div class="mainIndex">
+
+
+		</div><!--fin div mainIndex-->
+		<div class="lstEspecialistas">
+				<div class="espEncabezado">
+					<div class="tituloEspecialidad">Especialidad</div>
+					<div class="tituloNombre">Nombre</div>
+				</div>
+				<div class="lstNombresEsp">
+
+			</div>
+		</div>
+		<!-- html para clonar-->
+		<div id="servicioClonar" class="servicio">
+			<div class="servicioHeader">
+				<div class="conect">
+					<!--<img class="imagenCon" src="assets/conectado.svg" title="Unidad conectada"/>-->
+				</div>
+				<div class="folio">
+					FRAP:<label class="bold valorFolio"></label>
+				</div>
+				<div class="titulo">
+					<label class="valorNombre"></label>
+				</div>
+				<div class="datosDescarga" style="display:none">
+					<label class="datosDesc"></label>
+				</div>
+				<div class="especialistaD">
+					<img id="esp8" class="clickEsp" src="assets/especialista.svg" title="Agregar especialista"/>
+				</div>
+				<div class="pantallaD">
+					<img  class="completaP" src="assets/pantallaCompleta.svg" title="Ir a pantalla completa"/>
+				</div>
+			</div>
+			<div class="contenido">
+				<div class="contenidoR">
+						<div class="contenidoC bpm">
+							<label class="nombre">
+								bpm
+							</label>
+							<label class="valor" id="bpm_index">
+								0
+							</label>
+						</div>
+						<div class="contenidoC temp">
+							<label class="nombre">
+								Temp ºC
+							</label>
+							<label class="valor" id="tmp_index">
+								0
+							</label>
+						</div>
+				</div>
+				<div class="contenidoR">
+					<div class="contenidoC spo2">
+						<label class="nombre">
+							SPO2
+						</label>
+						<label class="valor" id="spo_index">
+							0
+						</label>
+					</div>
+					<div class="contenidoC nibp">
+						<label class="nombre">
+							NIBP
+						</label>
+						<label class="valor" id="nim_index">
+							0
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="divChat">
+				<div class="chatMensajes chatP"></div>
+				<div class="chatEnviarChico">
+					<div class="chatEnviarEspacio">
+						<div class="chatAreaMensaje">
+							<textarea type="text" id="txtChat"></textarea>
+						</div>
+						<div class="chatAreaEnviar">
+							<img src="assets/enviar.svg"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--fin html para clonar-->
+
+		<footer class="footer">
+			<div class="logoCrum">
+				<img src="assets/logoCrum.svg"/>
+			</div>
+			<div class="dominio">
+				<label>2017 © CRUM</label>
+			</div>
+			<div class="logoCidesi">
+				<img src="assets/logoCidesi.svg"/>
+			</div>
+		</footer>
+
+	</body>
+</html>

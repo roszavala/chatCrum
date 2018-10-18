@@ -1,0 +1,21 @@
+@import url('reset.css');
+@import url('secciones.css');
+html,body{
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+
+#salir {
+		margin: 5px;
+		padding: 5px 10px;
+		font-size: 1.25em;
+		color: gray;
+		transition: all 0.3s ease;
+}
+#salir:hover {
+		cursor: pointer;
+		color: white;
+}
